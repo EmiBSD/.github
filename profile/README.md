@@ -37,6 +37,7 @@ page explains the pipeline from the 1:1 port to the redesign.
 [Website](https://www.emibsd.org) ·
 [About](https://www.emibsd.org/about/) ·
 [Contributing](https://www.emibsd.org/contributing/) ·
+[Support the project](https://www.emibsd.org/support/) ·
 [News feed](https://www.emibsd.org/news/feed.xml)
 
 EmiBSD is an independent experiment built on OpenBSD's source code. It is not affiliated with or
