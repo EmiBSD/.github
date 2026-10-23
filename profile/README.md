@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="https://www.emibsd.org/assets/img/ferffy-360.jpg" alt="Ferffy, the EmiBSD mascot" width="112">
+  <picture>
+    <source srcset="https://www.emibsd.org/assets/img/ferffy-lines-white.svg" media="(prefers-color-scheme: dark)">
+    <img src="https://www.emibsd.org/assets/img/ferffy-lines-black.svg" alt="Ferffy, the EmiBSD mascot: a spiky crab, drawn in line art" width="150">
+  </picture>
 </p>
 
 # EmiBSD
