@@ -25,9 +25,9 @@ goal.
 
 ## Where it stands
 
-Milestones N0 to N3 (bootstrap, leaves, foundations, memory) are met; N4, processes and scheduling, is under
-way. The [Status](https://www.emibsd.org/status/) page lists every subsystem and the `unsafe`
-count of each crate, at a named commit.
+Milestones N0 to N4 (bootstrap, leaves, foundations, memory, processes) are met; N5, the VFS and
+the file systems, is next. The [Status](https://www.emibsd.org/status/) page has every milestone, the slices of the latest
+one, and the `unsafe` count of each crate, at a named commit.
 
 ## How it is built
 
