@@ -1,0 +1,3 @@
+# Default sponsor button for every repository of the EmiBSD organisation.
+# GitHub reads this file only from the .github folder of the .github repository.
+github: EmiBSD
