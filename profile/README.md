@@ -23,6 +23,7 @@ goal.
 | [**Kernel**](https://github.com/EmiBSD/Kernel) | The redesign: what LandingZone ported, rebuilt with Rust's ownership in place of C's conventions. Crates `kernel` and `abi` are `#![forbid(unsafe_code)]`; only `hal` may hold `unsafe`, each site with a written proof. |
 | [**Userland**](https://github.com/EmiBSD/Userland) | The base system above the kernel: one tree where every program, library and configuration file sits by what it does, not by where history left it. Its shape is settled; its content is at the start. |
 | [**DevTools**](https://github.com/EmiBSD/DevTools) | The toolchains, imported and built once: LLVM as OpenBSD ships it for the C, and a pinned stable Rust with its `std` for `aarch64-unknown-openbsd`, released as artifacts the other repositories consume. |
+| [**OS**](https://github.com/EmiBSD/OS) | Where the system is assembled and released: a manifest pins one commit of Kernel, Userland and DevTools; the recipes fetch them, assemble the sets and media, boot them and tag the release as `YEAR.MONTH`. Nothing released yet. |
 | [**Website**](https://github.com/EmiBSD/Website) | The website, [www.emibsd.org](https://www.emibsd.org). |
 
 The forks in this organisation (`OpenBSD-src`, `rust`, `llvm-project`, `cargo`) are read-only
