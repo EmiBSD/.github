@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source srcset="https://www.emibsd.org/assets/img/ferffy-lines-white.svg" media="(prefers-color-scheme: dark)">
-    <img src="https://www.emibsd.org/assets/img/ferffy-lines-black.svg" alt="Ferffy, the EmiBSD mascot: a spiky crab, drawn in line art" width="150">
+    <img src="https://www.emibsd.org/assets/img/ferffy-lines-black.svg" alt="Ferffy, the EmiBSD mascot: a centolla, drawn in line art" width="150">
   </picture>
 </p>
 
@@ -51,6 +51,7 @@ decision that crosses repositories, are in [Governance](https://github.com/EmiBS
 [Support the project](https://www.emibsd.org/support/) ·
 [News feed](https://www.emibsd.org/news/feed.xml)
 
-EmiBSD is an independent experiment built on OpenBSD's source code. It is not affiliated with or
+Ferffy, the mascot, is a [centolla](https://en.wikipedia.org/wiki/Lithodes_santolla), the king crab of
+Chile's southern seas, the child of Ferris and Puffy. EmiBSD is an independent experiment built on OpenBSD's source code. It is not affiliated with or
 endorsed by the [OpenBSD](https://www.openbsd.org/) project. New code is ISC; files derived from
 OpenBSD keep their original licence notices, whole.
