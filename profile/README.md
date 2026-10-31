@@ -25,6 +25,7 @@ goal.
 | [**DevTools**](https://github.com/EmiBSD/DevTools) | The toolchains, imported and built once: LLVM as OpenBSD ships it for the C, and a pinned stable Rust with its `std` for `aarch64-unknown-openbsd`, released as artifacts the other repositories consume. |
 | [**OS**](https://github.com/EmiBSD/OS) | Where the system is assembled and released: a manifest pins one commit of Kernel, Userland and DevTools; the recipes fetch them, assemble the sets and media, boot them and tag the release as `YEAR.MONTH`. Nothing released yet. |
 | [**Website**](https://github.com/EmiBSD/Website) | The website, [www.emibsd.org](https://www.emibsd.org). |
+| [**Governance**](https://github.com/EmiBSD/Governance) | What binds the rest: the invariants every repository obeys, the process, the architecture of the repositories, the roadmap across them, the decision log and the policies. |
 
 The forks in this organisation (`OpenBSD-src`, `rust`, `llvm-project`, `cargo`) are read-only
 mirrors of the sources the repositories pin; nothing of ours is committed to them.
@@ -39,7 +40,8 @@ one, and the `unsafe` count of each crate, at a named commit.
 
 The work is carried out by AI coding agents under fixed roles and written rules; one maintainer
 takes the decisions and approves every commit. The [Process](https://www.emibsd.org/process/)
-page explains the pipeline from the 1:1 port to the redesign.
+page explains the pipeline from the 1:1 port to the redesign; the rules themselves, and every
+decision that crosses repositories, are in [Governance](https://github.com/EmiBSD/Governance).
 
 ## Links
 
