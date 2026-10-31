@@ -21,7 +21,12 @@ goal.
 |---|---|
 | [**LandingZone**](https://github.com/EmiBSD/LandingZone) | The OpenBSD kernel ported to Rust one C file at a time, keeping the C's shape so every file can be checked against its origin. Fidelity first. |
 | [**Kernel**](https://github.com/EmiBSD/Kernel) | The redesign: what LandingZone ported, rebuilt with Rust's ownership in place of C's conventions. Crates `kernel` and `abi` are `#![forbid(unsafe_code)]`; only `hal` may hold `unsafe`, each site with a written proof. |
+| [**Userland**](https://github.com/EmiBSD/Userland) | The base system above the kernel: one tree where every program, library and configuration file sits by what it does, not by where history left it. Its shape is settled; its content is at the start. |
+| [**DevTools**](https://github.com/EmiBSD/DevTools) | The toolchains, imported and built once: LLVM as OpenBSD ships it for the C, and a pinned stable Rust with its `std` for `aarch64-unknown-openbsd`, released as artifacts the other repositories consume. |
 | [**Portal**](https://github.com/EmiBSD/Portal) | The website, [www.emibsd.org](https://www.emibsd.org). |
+
+The forks in this organisation (`OpenBSD-src`, `rust`, `llvm-project`, `cargo`) are read-only
+mirrors of the sources the repositories pin; nothing of ours is committed to them.
 
 ## Where it stands
 
